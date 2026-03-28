@@ -1,72 +1,44 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,100:4ECDC4&height=200&section=header&text=🐰%20FollowBunny&fontSize=36&fontColor=ffffff&desc=FB%20社團自動互動引擎%20|%20by%20Allison%20@%20CTMaxs&descSize=14&descAlignY=75)
+# 🐰 FollowBunny — FB 社團自動按讚留言機器人
 
-# 🐰 FollowBunny — FB 社團自動互動引擎
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5,10,20&height=180&section=header&text=🐰%20FollowBunny&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=FB%20社團自動互動%20×%20龍蝦驅動&descSize=18&descAlignY=55" width="100%"/>
+</p>
 
-> 🧑‍💻 Created by **Allison** (@10000allison) | CTMaxs 龍蝦自動化團隊
-
-### 🔥 自動幫你在 FB 社團按讚、留言、+1
-
-> **社團團購老闆的夢想工具 — 18 個帳號自動輪流互動，每篇貼文 10 讚 + 10 留言。**
-
-```
-📦 安裝方式：
-openclaw skills install followbunny --by Allison
-```
+<p align="center">
+  🧑‍💻 Created by <a href="https://instagram.com/10000allison">Allison (@10000allison)</a> | CTMaxs 龍蝦自動化團隊
+</p>
 
 ---
 
-## 😤 痛點
+## 🔥 一句話說完
 
-- FB 社團貼文沒人按讚、沒人留言，看起來很冷清
-- 手動用多個帳號輪流按讚留言，一天要花 3-4 小時
-- 帳號太多管不過來，容易忘記哪個帳號已經操作過
-- 每天重複一樣的事，浪費時間又無聊
+**FB 社團新貼文一出，18 個帳號自動按讚 + 智慧留言，讓你的社團看起來超熱鬧。**
 
-## ✅ 解法
+---
 
-FollowBunny 自動完成所有互動：
-- **自動按讚** — 每篇貼文自動按讚
-- **自動留言** — 偵測商品規格，智慧留言「A+1」或「+1」
-- **多帳號輪流** — 18 個帳號隨機分配，不重複
-- **紀錄追蹤** — Google Sheet 自動記錄每次操作
-- **防重複** — 同一帳號不會對同一篇貼文重複互動
+## ❌ 社團經營的痛
 
-## 🏗️ 技術架構
+- 發文後沒人按讚，看起來很冷清
+- 找人互動要一個一個叫，累死
+- 手動按讚留言太慢，貼文都涼了
+- 留言太假、太重複，一看就知道是機器人
+- 帳號被封就全部停擺
 
-```
-OpenClaw AI Agent
-    ↓
-AdsPower（18 個獨立指紋帳號）
-    ↓
-CDP 控制瀏覽器
-    ↓
-自動爬取社團貼文 → 按讚 → 偵測規格 → 留言
-    ↓
-Google Sheet 記錄
-```
+## ✅ 用 FollowBunny 之後
 
-## 📊 實測數據
+- 新貼文一出 → 10 讚 + 10 留言自動完成
+- 18 個帳號隨機分配，每次不同人按讚
+- AI 智慧留言：偵測商品規格，自動選「A+1」或「+1」
+- 每個帳號獨立指紋 + 獨立 IP（AdsPower）
+- 留言像真人打的，不帶引號、自然口吻
 
-| 指標 | 手動 | FollowBunny |
-|------|------|-------------|
-| 每篇互動時間 | 15-20 分鐘 | **30 秒** |
-| 每天處理量 | 10-20 篇 | **100+ 篇** |
-| 帳號切換 | 手動登入登出 | **自動輪流** |
-| 紀錄追蹤 | Excel 手記 | **自動 Google Sheet** |
+---
 
-## 🎯 誰需要？
+## 🎯 適合誰？
 
-| 你是... | 你可以用來... |
-|---------|-------------|
-| **團購老闆** | 自動炒熱社團氣氛，讓貼文看起來很搶手 |
-| **社群經營者** | 批量管理多個社團的互動 |
-| **電商賣家** | 自動在商品貼文下方+1搶購 |
-| **行銷公司** | 幫客戶做社團互動服務 |
-
-## 📋 前提需求
-
-| 工具 | 用途 | 必要 |
+| 身份 | 痛點 | 解法 |
 |------|------|------|
+<<<<<<< HEAD
 | [AdsPower](https://www.adspower.net/share/Qd0snp) | 多帳號指紋瀏覽器 | ✅ |
 | [OpenClaw](https://openclaw.ai) | AI Agent 框架 | ✅ |
 | Node.js 18+ | 執行腳本 | ✅ |
@@ -86,12 +58,96 @@ FollowBunny 會自動辨識貼文中的商品規格：
 > - ❌ 不包含：客製化開發 + 一對一技術支援
 > - 帳號被封屬於第三方平台行為，非本服務責任
 
+=======
+| 社團團購主 | 貼文沒人氣 | 自動製造初始互動 |
+| 電商老闆 | 社團太冷清 | 穩定按讚+留言 |
+| 代操公司 | 手動操作效率低 | 全自動批量執行 |
+| 直播主 | 需要即時互動 | 開播自動湧入 |
+>>>>>>> 209a7b5a43a4ad2032b6d4c8910ed9c315118b97
 
 ---
 
-**Created by [Allison](https://www.instagram.com/10000allison/) | [CTMaxs](https://ctmaxs.com) 龍蝦自動化團隊**
+## 🏗️ 運作流程
 
+<<<<<<< HEAD
 *Built with 🦞 [OpenClaw](https://openclaw.ai) + 🔒 [AdsPower](https://www.adspower.net/share/Qd0snp)*
+
+---
+
+
+---
+
+## 🧠 智慧規格偵測
+
+FollowBunny 會自動讀取貼文內容，判斷有沒有商品規格：
+
+| 偵測到的格式 | 範例 | 留言 |
+|-------------|------|------|
+| ①②③ 圈數字 | ①紅色 ②藍色 | 「①+1」 |
+| A./B./C. 英文 | A.大號 B.小號 | 「A+1」 |
+| A規格/B規格 | A規格/B規格 | 「A規格+1」 |
+| 無規格 | 純文字描述 | 「+1」 |
+
+> 需要 ≥2 個 match 才判定有規格，避免誤判
+
+---
+
+## 📊 實際數據
+
+| 指標 | 數值 |
+|------|------|
+| 帳號數量 | 18 個 |
+| 每篇互動 | 10 讚 + 10 留言 |
+| 每帳號每天 | ~10 篇 |
+| 代理 IP | 每 6 帳號共用 1 個 |
+| 留言速度 | 每篇 ~30 秒完成 |
+
+---
+
+## 🔧 包含什麼？
+
+### Public（你現在看到的）
+- ✅ FollowBunny 運作架構說明
+- ✅ 智慧留言邏輯解析
+- ✅ AdsPower 帳號管理教學
+- ✅ Google Sheet 設定範本
+
+### Private Core（付費版）
+- 🔒 完整自動化腳本（`followbunny-auto.js`）
+- 🔒 AdsPower API + CDP 整合
+- 🔒 Google Sheet Apps Script
+- 🔒 規格偵測演算法
+- 🔒 每日報告自動推播
+- 🔒 帳號健康度監控
+- 🔒 封號應對 + 帳號替換 SOP
+
+---
+
+## 💼 收費方案（代操服務）
+
+| 方案 | 月費 | 內容 |
+|------|------|------|
+| 基本方案 | NT$2,500/月 | 每篇 10 讚 + 10 留言 |
+| 進階方案 | NT$5,000/月 | 每篇 15 讚 + 15 留言 + 日報 |
+| 自架方案 | 一次買斷 | 自己跑，含教學 |
+
+---
+
+
+---
+
+👉 [立即免費領取](https://lumaint.1shop-app.com/lobster-store)
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5,10,20&height=100&section=footer" width="100%"/>
+</p>
+
+<p align="center">
+  Created by <a href="https://instagram.com/10000allison">Allison</a> | CTMaxs 龍蝦自動化團隊
+</p>
+>>>>>>> 209a7b5a43a4ad2032b6d4c8910ed9c315118b97
 
 ---
 
